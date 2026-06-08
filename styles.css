@@ -1,6 +1,56 @@
 html{
-    font-family: serif;
+    font-family: sans-serif;
     background: rgb(253, 254, 246);
     margin: 0;
+}
+
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+}
+h3{
+    align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 1000px;
+}
+.nav-links {
+  display: flex;
+  list-style: none; 
+}
+.nav-links li {
+  margin-left: 30px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none; 
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #ffdd57;
+}
+
+.about-info {
+  display: flex;          
+  align-items: center;
+  gap: 20px;     
+}
+.about-image {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
 }
 

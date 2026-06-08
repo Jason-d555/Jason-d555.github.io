@@ -6,12 +6,82 @@
   </head>
 
   <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about-info">About</a></li>
+        <li><a href="#hobbies-info">Hobbies</a></li>
+        <li><a href="#projects-info">Projects</a></li>
+        <li><a href="#achievements-info">Achievements</a></li>
+      </ul>
+    </nav>
 
-   
-    <h1>My personal web site.</h1>
-    <p>Hello, world!</p>
-      
+    <div class = "about-info">
+      <div class = "about-text">
+        <h1>My personal web site</h1>
+        <h2>Jason</h1>
+        <p>I am a student who only join ISF this year in 2025. I have being working on a lot of different projects throughout this year.</p>
+      </div>
+      <img src=".jpg" alt="Any image" class="about-image">
+    </div>
 
+    <div class = "hobbies-info">
+      <h3>Hobbies</h3>
+
+    </div>
+    
+    <div class = "projects-info">
+      <h3>Projects</h3>
+      <div class = "projects-csprojects">
+
+      </div>
+      <div class = "projects-3dmodel">
+
+      </div>
+    </div>
+
+    <div class = "achievements-info">
+      <h3>Acheivements</h3>
+      <div class = "achievements-sports">
+
+      </div>
+    </div>
 
   </body>
 </html>
+
+
+
+
+/body{
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0%;
+}
+
+.card{
+  width: 25%;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px -4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+
+.card p, .card h3{
+  width: 60%;
+  padding: 0px 30px;
+}
+
+.card h3{
+  font-weight: bold;
+}
+
+.card p{
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+/
